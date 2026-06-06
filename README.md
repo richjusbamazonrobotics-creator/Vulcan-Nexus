@@ -1,37 +1,52 @@
-```python
-```markdown
+# GEG1 Vulcan Field Engineering - Workstation Launcher
 
-# GEG1 VFE Workstation Launcher - Configuration
+A professional GUI tool for the VFE team to quickly launch daily applications, Kinesis streams, documents, bookmarks, training resources, and scripts from one interface.
 
-Central configuration file for the GEG1 Vulcan Field Engineering Workstation Launcher.
+## Quick Start (End Users)
 
-## Overview
+1. Download `GEG1_VFE_Launcher.exe` from your team lead
+2. Place it anywhere on your machine (Desktop recommended)
+3. Double-click to run
+4. Your role and permissions are auto-detected from your Windows login
 
-This repository hosts the shared `config.json` that the launcher pulls on startup. Any changes pushed here are automatically reflected for all team members on their next launch.
+## Setup (Developer / Admin)
 
-## What's in config.json
+### Prerequisites
+- Python 3.10+
+- Windows 10/11
 
-- **User roles** — Maps Windows aliases to roles (Admin, Tech Lead, Field Engineer, VFM, OLE)
-- **Monthly documents** — SharePoint URLs for DT Log, EOD Report, and Daily Sync
-- **Role permissions** — Defines which pages each role can access
+### Installation
+1. Clone or download this project folder
+2. Open a terminal in the project folder
+3. Run: python -m venv .venv .venv\Scripts\activate pip install -r requirements.txt
 
-## How Updates Work
+4. Launch: `python launcher.py` or double-click `GEG1_VFE_Launcher.bat`
 
-1. Admin edits `config.json` (via the app's Admin Panel or directly here)
-2. Changes are pushed to this repository
-3. Team members receive updates automatically on next app launch
+### Building the .exe
+1. Double-click `build.bat`
+2. The .exe will be in the `dist/` folder
+3. Distribute the .exe to your team
 
-## Roles
+## Configuration
 
-| Role | Access Level |
-|------|-------------|
-| Admin | Full access + Admin Panel |
-| Tech Lead | All tools and documents |
-| Field Engineer | All tools and documents |
-| VFM | Basic apps and bookmarks |
-| OLE | Basic apps and bookmarks |
+The app pulls `config.json` from GitHub on every launch. To update:
+1. Edit config in the Admin Panel (admin role only)
+2. Push changes to GitHub (manually or via Save & Push)
 
-## Maintained By
+### Roles
+- **Admin** - Full access including Admin Panel
+- **Field Engineer** - All tools except Admin Panel
+- **Tech Lead** - All tools except Admin Panel
+- **VFM** - Home, Apps, Kinesis, Docs, Bookmarks, Training
+- **OLE** - Home, Apps, Docs, Bookmarks, Training
 
-Justin Richards (@richjusb) — GEG1 Vulcan Field Engineering
+## File Structure
+GEG1_VFE_Launcher/ ├── launcher.py - Main application ├── config.json - User/role/doc config (synced from GitHub) ├── secrets.json - GitHub token (NEVER share or push) ├── requirements.txt - Python dependencies ├── README.md - This file ├── build.bat - PyInstaller build script ├── GEG1_VFE_Launcher.bat - Dev launcher └── .venv/ - Virtual environment
 
+
+## Auto-Update
+- Config syncs from GitHub on every launch
+- .exe updates check GitHub Releases for new versions
+
+## Support
+Contact Justin Richards (@richjusb) for access or issues.
