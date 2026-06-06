@@ -16,11 +16,11 @@
         },
         "vfm": {
             "label": "VFM",
-            "pages": ["home", "apps", "kinesis", "docs", "links", "training", "scripts"]
+            "pages": ["home", "apps", "kinesis", "docs", "links", "training"]
         },
         "ole": {
             "label": "OLE",
-            "pages": ["home", "apps", "kinesis", "docs", "links", "training", "scripts"]
+            "pages": ["home", "apps", "docs", "links", "training"]
         }
     },
     "users": {
@@ -36,11 +36,11 @@
         },
         "dt_log": {
             "label": "Downtime Log",
-            "url": ""
+            "url": "https://amazon.sharepoint.com/:x:/r/sites/VulcanStow/_layouts/15/Doc.aspx?sourcedoc=%7B7C7F0FAA-6933-4573-835D-3A11F838FCDF%7D&file=GEG1%20Beta%20DT%20Log%20June%2026.xlsx&action=default&mobileredirect=true"
         },
         "eod_report": {
             "label": "EOD Report",
-            "url": ""
+            "url": "https://amazon.sharepoint.com/:w:/r/sites/ar-product-launch/_layouts/15/Doc.aspx?sourcedoc=%7B6D5F7612-5979-4639-BDCF-8323199C2E9E%7D&file=GEG1%20BETA%20EOD%20reports%20(April-June).docx&action=default&mobileredirect=true"
         }
     }
 }
