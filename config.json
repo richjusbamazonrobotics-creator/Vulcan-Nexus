@@ -73,6 +73,10 @@
         "dkolveky": {
             "display_name": "Kyler Kolves",
             "role": "vfm"
+        },
+        "danedell": {
+            "display_name": "Dane DellaPenta",
+            "role": "tech_lead"
         }
     },
     "monthly_docs": {
