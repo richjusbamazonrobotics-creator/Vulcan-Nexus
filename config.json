@@ -69,6 +69,10 @@
         "demoulpe": {
             "display_name": "Peter Demoulin",
             "role": "field_engineer"
+        },
+        "danedell": {
+            "display_name": "Dane DellaPenta",
+            "role": "tech_lead"
         }
     },
     "monthly_docs": {
