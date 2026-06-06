@@ -4,29 +4,71 @@
     "roles": {
         "admin": {
             "label": "Admin",
-            "pages": ["home", "apps", "kinesis", "docs", "links", "training", "scripts", "admin"]
+            "pages": [
+                "home",
+                "apps",
+                "kinesis",
+                "docs",
+                "links",
+                "training",
+                "scripts",
+                "admin"
+            ]
         },
         "field_engineer": {
             "label": "Field Engineer",
-            "pages": ["home", "apps", "kinesis", "docs", "links", "training", "scripts"]
+            "pages": [
+                "home",
+                "apps",
+                "kinesis",
+                "docs",
+                "links",
+                "training",
+                "scripts"
+            ]
         },
         "tech_lead": {
             "label": "Tech Lead",
-            "pages": ["home", "apps", "kinesis", "docs", "links", "training", "scripts"]
+            "pages": [
+                "home",
+                "apps",
+                "kinesis",
+                "docs",
+                "links",
+                "training",
+                "scripts"
+            ]
         },
         "vfm": {
             "label": "VFM",
-            "pages": ["home", "apps", "kinesis", "docs", "links", "training"]
+            "pages": [
+                "home",
+                "apps",
+                "kinesis",
+                "docs",
+                "links",
+                "training"
+            ]
         },
         "ole": {
             "label": "OLE",
-            "pages": ["home", "apps", "docs", "links", "training"]
+            "pages": [
+                "home",
+                "apps",
+                "docs",
+                "links",
+                "training"
+            ]
         }
     },
     "users": {
         "richjusb": {
             "display_name": "Justin Richards",
             "role": "admin"
+        },
+        "danedell": {
+            "display_name": "Dane DellaPenta",
+            "role": "tech_lead"
         }
     },
     "monthly_docs": {
