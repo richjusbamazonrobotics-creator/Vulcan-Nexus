@@ -1,0 +1,80 @@
+{
+    "version": "1.0.0",
+    "default_role": "vfm",
+    "roles": {
+        "admin": {
+            "label": "Admin",
+            "pages": [
+                "home",
+                "apps",
+                "kinesis",
+                "docs",
+                "links",
+                "scripts",
+                "admin"
+            ]
+        },
+        "tech_lead": {
+            "label": "Tech Lead",
+            "pages": [
+                "home",
+                "apps",
+                "kinesis",
+                "docs",
+                "links",
+                "scripts"
+            ]
+        },
+        "field_engineer": {
+            "label": "Field Engineer",
+            "pages": [
+                "home",
+                "apps",
+                "kinesis",
+                "docs",
+                "links",
+                "scripts"
+            ]
+        },
+        "vfm": {
+            "label": "VFM",
+            "pages": [
+                "home",
+                "apps",
+                "links"
+            ]
+        },
+        "ole": {
+            "label": "OLE",
+            "pages": [
+                "home",
+                "apps",
+                "links"
+            ]
+        }
+    },
+    "users": {
+        "richjusb": {
+            "display_name": "Justin Richards",
+            "role": "admin"
+        },
+        "danedell": {
+            "display_name": "Dane DellPenta",
+            "role": "tech_lead"
+        }
+    },
+    "monthly_docs": {
+        "daily_sync": {
+            "label": "Daily Sync",
+            "url": "https://amazon.sharepoint.com/:w:/r/sites/VulcanStow/_layouts/15/Doc.aspx?sourcedoc=%7BD523B588-FB67-4ECC-BDA1-1446EB5756A4%7D&file=June%202026%20GEG1%20Beta%20Daily%20Sync.docx&action=default&mobileredirect=true"
+        },
+        "dt_log": {
+            "label": "Downtime Log",
+            "url": "https://amazon.sharepoint.com/:x:/r/sites/VulcanStow/_layouts/15/Doc.aspx?sourcedoc=%7B7C7F0FAA-6933-4573-835D-3A11F838FCDF%7D&file=GEG1%20Beta%20DT%20Log%20June%2026.xlsx&action=default&mobileredirect=true"
+        },
+        "eod_report": {
+            "label": "EOD Report",
+            "url": "https://amazon.sharepoint.com/:w:/r/sites/ar-product-launch/_layouts/15/Doc.aspx?sourcedoc=%7B6D5F7612-5979-4639-BDCF-8323199C2E9E%7D&file=GEG1%20BETA%20EOD%20reports%20(April-June).docx&action=default&mobileredirect=true"
+        }
+    }
+}
