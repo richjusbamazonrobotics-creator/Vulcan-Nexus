@@ -1,52 +1,75 @@
-# GEG1 Vulcan Field Engineering - Workstation Launcher
+# Vulcan Nexus
 
-A professional GUI tool for the VFE team to quickly launch daily applications, Kinesis streams, documents, bookmarks, training resources, and scripts from one interface.
+**GEG1 Workstation Hub** — A centralized launcher and resource management tool for the GEG1 Vulcan Field Engineering team.
 
-## Quick Start (End Users)
+## Overview
 
-1. Download `GEG1_VFE_Launcher.exe` from your team lead
-2. Place it anywhere on your machine (Desktop recommended)
-3. Double-click to run
-4. Your role and permissions are auto-detected from your Windows login
+Vulcan Nexus is a Python-based GUI application that provides one-click access to all daily tools, video streams, documents, bookmarks, and scripts used by the VFE team. It features role-based access control, cloud-synced configuration, and automatic updates.
 
-## Setup (Developer / Admin)
+## Features
 
-### Prerequisites
-- Python 3.10+
-- Windows 10/11
+- **Home Dashboard** — Shift calendar (FH/BH), progress bar, quick links, Full Stack launch
+- **Applications** — Launch Cisco VPN, Slack, Outlook, Better MMA
+- **Kinesis Streams** — Live video streams for all 6 systems (18 cameras)
+- **Documents** — Monthly docs (DT Log, EOD Report, TIM Report, 2-Way Radio Tracker)
+- **Bookmarks** — Team-wide web tools and dashboards
+- **Training & SOPs** — GRU, Amazon Learn, and standard operating procedures
+- **Scripts** — Workshell and automation utilities
+- **Team Roster** — Members grouped by shift with active shift highlighting
+- **Settings** — Customizable quick links, Full Stack items, themes
+- **Admin Panel** — Manage all URLs, users, and role permissions (Owner/Admin only)
 
-### Installation
-1. Clone or download this project folder
-2. Open a terminal in the project folder
-3. Run: python -m venv .venv .venv\Scripts\activate pip install -r requirements.txt
+## Role Hierarchy
 
-4. Launch: `python launcher.py` or double-click `GEG1_VFE_Launcher.bat`
+| Role | Access Level |
+|------|-------------|
+| Owner | Full access to all features |
+| Admin | Full access except owner-only actions |
+| Tech Lead | All tabs except Admin Panel |
+| OLE | Same as Tech Lead |
+| Field Engineer | All tabs except Admin Panel |
+| VFM | All tabs except Admin Panel |
+| Inductor | All tabs except Admin Panel |
 
-### Building the .exe
-1. Double-click `build.bat`
-2. The .exe will be in the `dist/` folder
-3. Distribute the .exe to your team
+## Tech Stack
+
+- Python 3.12
+- CustomTkinter (GUI framework)
+- PyInstaller (packaging)
+- GitHub API (config sync + auto-update)
+
+## Development Setup
+
+1. Clone this repository
+2. Create virtual environment:
+py -3.12 -m venv .venv .venv\Scripts\activate pip install customtkinter pyinstaller
+
+3. Run locally:
+python launcher.py
+
+4. Build .exe:
+build.bat
+
+
+## Project Structure
+
+Vulcan Nexus/ ├── .venv/ # Python virtual environment ├── dist/ # Built .exe output ├── release/ # Zipped release package ├── build.bat # Build script ├── config.json # Local configuration ├── icon.ico # Application icon ├── launcher.py # Main application source ├── README.md # This file ├── requirements.txt # Python dependencies ├── secrets.json # GitHub token (DO NOT SHARE) └── Vulcan Nexus.bat # Quick launcher for dev testing
+
 
 ## Configuration
 
-The app pulls `config.json` from GitHub on every launch. To update:
-1. Edit config in the Admin Panel (admin role only)
-2. Push changes to GitHub (manually or via Save & Push)
+- Config is synced from GitHub on every launch
+- Admin changes push automatically to GitHub via API
+- Team members receive updates on their next app launch
+- Config repo: github.com/richjusbamazonrobotics-creator/geg1-vfe-config
 
-### Roles
-- **Admin** - Full access including Admin Panel
-- **Field Engineer** - All tools except Admin Panel
-- **Tech Lead** - All tools except Admin Panel
-- **VFM** - Home, Apps, Kinesis, Docs, Bookmarks, Training
-- **OLE** - Home, Apps, Docs, Bookmarks, Training
+## Distribution
 
-## File Structure
-GEG1_VFE_Launcher/ ├── launcher.py - Main application ├── config.json - User/role/doc config (synced from GitHub) ├── secrets.json - GitHub token (NEVER share or push) ├── requirements.txt - Python dependencies ├── README.md - This file ├── build.bat - PyInstaller build script ├── GEG1_VFE_Launcher.bat - Dev launcher └── .venv/ - Virtual environment
+1. Run `build.bat`
+2. Zip the `release/` folder
+3. Create a new GitHub Release with the version tag
+4. Attach the zip file to the release
 
+## Author
 
-## Auto-Update
-- Config syncs from GitHub on every launch
-- .exe updates check GitHub Releases for new versions
-
-## Support
-Contact Justin Richards (@richjusb) for access or issues.
+Justin Richards — Vulcan Field Engineering, GEG1
