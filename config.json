@@ -69,6 +69,10 @@
         "danedell": {
             "display_name": "Dane DellaPenta",
             "role": "admin"
+        },
+        "jjpjohns": {
+            "display_name": "Jackson Johnson Barreto",
+            "role": "field_engineer"
         }
     },
     "monthly_docs": {
