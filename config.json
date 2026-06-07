@@ -1,9 +1,9 @@
 {
-    "version": "1.0.0",
+    "version": "3.4.0",
     "default_role": "vfm",
     "roles": {
-        "admin": {
-            "label": "Admin",
+        "owner": {
+            "label": "Owner",
             "pages": [
                 "home",
                 "apps",
@@ -12,11 +12,13 @@
                 "links",
                 "training",
                 "scripts",
+                "roster",
+                "settings",
                 "admin"
             ]
         },
-        "field_engineer": {
-            "label": "Field Engineer",
+        "admin": {
+            "label": "Administrator",
             "pages": [
                 "home",
                 "apps",
@@ -24,7 +26,10 @@
                 "docs",
                 "links",
                 "training",
-                "scripts"
+                "scripts",
+                "roster",
+                "settings",
+                "admin"
             ]
         },
         "tech_lead": {
@@ -36,57 +41,312 @@
                 "docs",
                 "links",
                 "training",
-                "scripts"
+                "scripts",
+                "roster",
+                "settings"
             ]
         },
-        "vfm": {
-            "label": "VFM",
+        "ole": {
+            "label": "Operations Lead",
             "pages": [
                 "home",
                 "apps",
                 "kinesis",
                 "docs",
                 "links",
-                "training"
+                "training",
+                "scripts",
+                "roster",
+                "settings"
             ]
         },
-        "ole": {
-            "label": "OLE",
+        "fe": {
+            "label": "Field Engineer",
+            "pages": [
+                "home",
+                "apps",
+                "kinesis",
+                "docs",
+                "links",
+                "training",
+                "scripts",
+                "settings"
+            ]
+        },
+        "vfm": {
+            "label": "Vulcan Floor Monitor",
+            "pages": [
+                "home",
+                "apps",
+                "kinesis",
+                "docs",
+                "links",
+                "training",
+                "settings"
+            ]
+        },
+        "inductor": {
+            "label": "Inductor",
             "pages": [
                 "home",
                 "apps",
                 "docs",
                 "links",
-                "training"
+                "training",
+                "settings"
             ]
         }
     },
     "users": {
         "richjusb": {
             "display_name": "Justin Richards",
-            "role": "admin"
-        },
-        "danedell": {
-            "display_name": "Dane DellaPenta",
-            "role": "admin"
+            "role": "owner",
+            "shift": "bhd"
         },
         "jjpjohns": {
             "display_name": "Jackson Johnson Barreto",
-            "role": "field_engineer"
+            "role": "fe",
+            "shift": "fhn"
         }
     },
     "monthly_docs": {
         "daily_sync": {
             "label": "Daily Sync",
-            "url": "https://amazon.sharepoint.com/:w:/r/sites/VulcanStow/_layouts/15/Doc.aspx?sourcedoc=%7BD523B588-FB67-4ECC-BDA1-1446EB5756A4%7D&file=June%202026%20GEG1%20Beta%20Daily%20Sync.docx&action=default&mobileredirect=true"
+            "description": "Daily team sync folder for shift handoff notes",
+            "url": "https://amazon.sharepoint.com/sites/VulcanStow/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FVulcanStow%2FShared%20Documents%2FVulcan%20Stow%20Beta%20Sites%2FGEG1%2FDaily%20Sync"
         },
         "dt_log": {
             "label": "Downtime Log",
+            "description": "System downtime tracking spreadsheet (updated daily)",
             "url": "https://amazon.sharepoint.com/:x:/r/sites/VulcanStow/_layouts/15/Doc.aspx?sourcedoc=%7B7C7F0FAA-6933-4573-835D-3A11F838FCDF%7D&file=GEG1%20Beta%20DT%20Log%20June%2026.xlsx&action=default&mobileredirect=true"
         },
         "eod_report": {
-            "label": "EOD Report",
+            "label": "End of Day Report",
+            "description": "Shift summary and incident documentation",
             "url": "https://amazon.sharepoint.com/:w:/r/sites/ar-product-launch/_layouts/15/Doc.aspx?sourcedoc=%7B6D5F7612-5979-4639-BDCF-8323199C2E9E%7D&file=GEG1%20BETA%20EOD%20reports%20(April-June).docx&action=default&mobileredirect=true"
+        }
+    },
+    "bookmarks": {
+        "Beta KPI Dashboard": {
+            "url": "https://us-west-2.quicksight.aws.amazon.com/sn/account/vulcanstow-prod/dashboards/beta-kpi-analysis-prodna-Dashboard-prod",
+            "description": "Real-time Vulcan Stow performance metrics and KPI tracking"
+        },
+        "Community Portal": {
+            "url": "https://connect.teksystems.com/s/",
+            "description": "TekSystems HR portal for timecards, pay stubs, and benefits"
+        },
+        "FCResearch": {
+            "url": "https://qi-fcresearch-na.corp.amazon.com/GEG1/search",
+            "description": "Container and package lookup by tracking ID or ASIN"
+        },
+        "QuickSight Analytics": {
+            "url": "https://us-east-1.quicksight.aws.amazon.com/sn/account/amazonbi/start/home",
+            "description": "Amazon business intelligence dashboards and data analytics"
+        },
+        "SIM Ticket Manager": {
+            "url": "https://t.corp.amazon.com/issues/",
+            "description": "Create, track, and resolve issue tickets"
+        }
+    },
+    "documents": {
+        "Premio Admin Access": {
+            "url": "https://amazon-my.sharepoint.com/:w:/p/gbryanjo/IQCjQztSaCZqR6w8Hi4tbBGAARe0LmRS6MPjxwqrSbiqdUI?e=FyNKj6",
+            "description": "Premio system admin credentials and access procedures",
+            "roles": [
+                "tech_lead",
+                "ole",
+                "admin",
+                "owner"
+            ]
+        },
+        "Radio Assignment Log": {
+            "url": "https://quip-amazon.com/5Pg8AOabkgZm/-Two-Way-Radio-Tracker#temp:C:HNH8213a373a6884423adf7c0ac1",
+            "description": "Two-way radio checkout and assignment tracker for all shifts",
+            "roles": [
+                "vfm",
+                "fe",
+                "tech_lead",
+                "ole",
+                "admin",
+                "owner"
+            ]
+        },
+        "TIM Report": {
+            "url": "https://amazon.sharepoint.com/:w:/r/sites/ar-product-launch/_layouts/15/Doc.aspx?sourcedoc=%7BBA87F347-362E-4D3F-AC6B-798235630412%7D&file=TIM%20Report.docx&action=default&mobileredirect=true",
+            "description": "Technical Issue Management report for leadership review",
+            "roles": [
+                "tech_lead",
+                "ole",
+                "admin",
+                "owner"
+            ]
+        },
+        "Transfer Failure Patterns": {
+            "url": "https://quip-amazon.com/p85bAQRD4EJN/Transfer-Issues-Items-that-struggle",
+            "description": "Known item transfer failures and resolution patterns",
+            "roles": [
+                "vfm",
+                "fe",
+                "tech_lead",
+                "ole",
+                "admin",
+                "owner"
+            ]
+        }
+    },
+    "learning": {
+        "Amazon Learn": {
+            "url": "https://learn.amazon.com/",
+            "description": "Amazon A to Z learning portal for required and elective training"
+        },
+        "Global Robotics University": {
+            "url": "https://learning.robotics.amazon.dev/",
+            "description": "Robotics-specific certifications, courses, and technical training"
+        }
+    },
+    "sops": {
+        "ASPN Diagnostics": {
+            "url": "https://quip-amazon.com/SgvtAGL6bbaf/ASPN-Diagnostics",
+            "description": "Network diagnostics and ASPN troubleshooting procedures"
+        },
+        "Calibration Procedure": {
+            "url": "https://quip-amazon.com/Qj3CAGdwjW8D/GEG1-Calibration-SOP",
+            "description": "Step-by-step system calibration for all GEG1 workcells"
+        },
+        "Inductor Operations": {
+            "url": "https://amazon.awsapps.com/workdocs-amazon/index.html#/document/52a1da9bce3dc3022d39a5e848cd3d410f3003ba87341187b9cf22417bfd0d09",
+            "description": "Inductor setup, operation, and maintenance training"
+        },
+        "Keyence Sensor Alignment": {
+            "url": "https://quip-amazon.com/fhXvALzKKx5o/How-To-Align-and-Tune-Keyence-Laser-Sensors",
+            "description": "Laser sensor alignment, tuning, and validation guide"
+        },
+        "Launch RME UI (WC1 Offline)": {
+            "url": "https://quip-amazon.com/qEbPAoJ7JsIz/How-to-Launch-RME-UI-when-WC1-is-Down",
+            "description": "Procedure to launch RME UI when primary workcell is offline"
+        },
+        "Premio UWC Operations": {
+            "url": "https://quip-amazon.com/A4MTASR89xOH/Vulcan-Stow-Premio-Operation-on-UWC",
+            "description": "Premio operation procedures on universal work cells"
+        },
+        "RME UI Runbook": {
+            "url": "https://quip-amazon.com/RzliA8m0Ga5j/Runbook-RME-UI",
+            "description": "Standard operating procedures for RME UI daily operations"
+        },
+        "Safe Working Procedures": {
+            "url": "https://quip-amazon.com/vPc9AtJNn2Zj/Vulcan-Stow-GEG1-Safe-Working-Procedures-Playbook",
+            "description": "Safety playbook covering lockout/tagout, PPE, and hazard protocols"
+        },
+        "Troubleshooting Guide": {
+            "url": "https://amazon.sharepoint.com/:w:/r/sites/VulcanStowTestingTeam/_layouts/15/Doc.aspx?sourcedoc=%7B25B7D39D-7C9F-45B0-B546-50DF772655EB%7D&file=Vulcan%20stow%20tech%20troubleshooting%20guide.docx&action=default&mobileredirect=true",
+            "description": "General troubleshooting flowchart for Vulcan Stow systems"
+        },
+        "UR Incident Log Retrieval": {
+            "url": "https://quip-amazon.com/bxQrADDT6unC/2023-08-23-How-to-pull-UR-incident-logs-flight-records",
+            "description": "How to pull Universal Robot incident logs and flight records"
+        }
+    },
+    "kinesis": {
+        "base_url": "https://beta.console.harmony.a2z.com/kinesis-url-generator/timetravel",
+        "prefix": "GEG1",
+        "systems": [
+            94404,
+            94446,
+            94413,
+            94243,
+            94217,
+            94205
+        ]
+    },
+    "apps": {
+        "better_mma": {
+            "label": "Better MMA",
+            "path": "C:\\Users\\Public\\Desktop\\BetterMMA.lnk",
+            "description": "Enhanced MMA tracking and performance analysis",
+            "download_url": "https://w.amazon.com/bin/view/BetterMMA/"
+        },
+        "outlook": {
+            "label": "Outlook",
+            "path": "shell:AppsFolder\\Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookForWindows",
+            "description": "Email, calendar, and scheduling",
+            "type": "shell"
+        },
+        "slack": {
+            "label": "Slack",
+            "path": "C:\\Users\\richjusb\\AppData\\Local\\slack\\slack.exe",
+            "description": "Team messaging and channel communication"
+        },
+        "vpn": {
+            "label": "Cisco Secure Client",
+            "path": "C:\\Program Files (x86)\\Cisco\\Cisco Secure Client\\UI\\csc_ui.exe",
+            "description": "VPN connection for internal network access"
+        }
+    },
+    "scripts": {
+        "workshell": {
+            "label": "Workshell",
+            "path": "%USERPROFILE%\\Desktop\\workshell\\workshell.bat",
+            "description": "SSH tunnel and remote shell environment"
+        }
+    },
+    "schedule": {
+        "anchor_date": "2026-04-22",
+        "anchor_team": "fh",
+        "day_shift": {
+            "start": "07:00",
+            "break1_start": "09:30",
+            "break1_end": "09:45",
+            "lunch_start": "11:45",
+            "lunch_end": "12:15",
+            "break2_start": "14:45",
+            "break2_end": "15:00",
+            "end": "17:30"
+        },
+        "night_shift": {
+            "start": "18:00",
+            "break1_start": "20:30",
+            "break1_end": "20:45",
+            "lunch_start": "22:45",
+            "lunch_end": "23:15",
+            "break2_start": "01:45",
+            "break2_end": "02:00",
+            "end": "04:30"
+        }
+    },
+    "settings": {
+        "chrome_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "status_duration": 5,
+        "full_stack_on_launch": false,
+        "max_quick_links": 6
+    },
+    "themes": {
+        "Nexus Green": {
+            "accent": "#00cc66",
+            "accent_dim": "#238636",
+            "bg_dark": "#0d1117",
+            "bg_sidebar": "#161b22",
+            "bg_card": "#1c2128"
+        },
+        "Azure Blue": {
+            "accent": "#58a6ff",
+            "accent_dim": "#1f6feb",
+            "bg_dark": "#0d1117",
+            "bg_sidebar": "#161b22",
+            "bg_card": "#1c2128"
+        },
+        "Amber": {
+            "accent": "#f0883e",
+            "accent_dim": "#9e6a03",
+            "bg_dark": "#0d1117",
+            "bg_sidebar": "#161b22",
+            "bg_card": "#1c2128"
+        },
+        "Purple Haze": {
+            "accent": "#bc8cff",
+            "accent_dim": "#8957e5",
+            "bg_dark": "#0d1117",
+            "bg_sidebar": "#161b22",
+            "bg_card": "#1c2128"
         }
     }
 }
