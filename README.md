@@ -45,4 +45,4 @@ This repository stores the shared `config.json` that all Vulcan Nexus instances 
 
 ## Access
 
-This repo is used by the GEG1 Vulcan Field Engineering team. Contact Justin Richards for access.
+This repo is used by the GEG1 Vulcan Engineering team. Contact Justin Richards for access.
