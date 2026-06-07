@@ -1,10 +1,10 @@
 # Vulcan Nexus — Configuration
 
-Cloud-synced configuration file for the Vulcan Nexus GEG1 Workstation Hub.
+Cloud-synced configuration file for the Vulcan Nexus Workstation Hub.
 
 ## Purpose
 
-This repository stores the shared `config.json` that all Vulcan Nexus instances pull from on launch. When an admin makes changes through the app's Admin Panel, updates are pushed here automatically.
+This is a public repository that stores the shared `config.json` used by all Vulcan Nexus instances. The application pulls this file on launch to stay up to date, and admin changes are pushed back automatically.
 
 ## How It Works
 
@@ -43,6 +43,10 @@ This repository stores the shared `config.json` that all Vulcan Nexus instances 
 - All changes should be made through the Vulcan Nexus Admin Panel
 - Manual edits may be overwritten on next admin push
 
-## Access
+## Why Public?
 
-This repo is used by the GEG1 Vulcan Engineering team. Contact Justin Richards for access.
+This repo must be public so the application can fetch `config.json` without requiring authentication on every user's machine. No sensitive data (tokens, credentials, personal information) is stored in this file.
+
+## Contact
+
+Justin Richards (richjusb) — Vulcan Engineering
