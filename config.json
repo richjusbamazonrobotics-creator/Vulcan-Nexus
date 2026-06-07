@@ -107,6 +107,11 @@
             "display_name": "Jackson Johnson Barreto",
             "role": "fe",
             "shift": "fhn"
+        },
+        "danedell": {
+            "display_name": "Dane DellaPenta",
+            "role": "admin",
+            "shift": "bhd"
         }
     },
     "monthly_docs": {
