@@ -336,27 +336,6 @@
             "bg_sidebar": "#161b22",
             "bg_card": "#1c2128"
         },
-        "Azure Blue": {
-            "accent": "#58a6ff",
-            "accent_dim": "#1f6feb",
-            "bg_dark": "#0d1117",
-            "bg_sidebar": "#161b22",
-            "bg_card": "#1c2128"
-        },
-        "Amber": {
-            "accent": "#f0883e",
-            "accent_dim": "#9e6a03",
-            "bg_dark": "#0d1117",
-            "bg_sidebar": "#161b22",
-            "bg_card": "#1c2128"
-        },
-        "Purple Haze": {
-            "accent": "#bc8cff",
-            "accent_dim": "#8957e5",
-            "bg_dark": "#0d1117",
-            "bg_sidebar": "#161b22",
-            "bg_card": "#1c2128"
-        },
         "Tokyo Night": {
             "accent": "#f7768e",
             "accent_dim": "#bb4d5a",
@@ -398,6 +377,27 @@
             "bg_dark": "#002b36",
             "bg_sidebar": "#00212b",
             "bg_card": "#073642"
+        },
+        "Gruvbox": {
+            "accent": "#fe8019",
+            "accent_dim": "#af5f00",
+            "bg_dark": "#282828",
+            "bg_sidebar": "#1d2021",
+            "bg_card": "#3c3836"
+        },
+        "One Dark": {
+            "accent": "#61afef",
+            "accent_dim": "#3d78b0",
+            "bg_dark": "#282c34",
+            "bg_sidebar": "#21252b",
+            "bg_card": "#2c313c"
+        },
+        "High Contrast": {
+            "accent": "#ffffff",
+            "accent_dim": "#aaaaaa",
+            "bg_dark": "#000000",
+            "bg_sidebar": "#0a0a0a",
+            "bg_card": "#141414"
         }
     },
     "passdown": [
@@ -408,7 +408,7 @@
         }
     ],
     "active_users": {
-        "richjusb": "2026-06-08T16:16:14.962390"
+        "richjusb": "2026-06-08T16:24:06.260947"
     },
     "announcement": {
         "message": "This is a test!",
