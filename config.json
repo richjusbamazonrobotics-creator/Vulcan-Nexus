@@ -412,6 +412,6 @@
     },
     "announcement": {
         "message": "This is a test!",
-        "level": "info"
+        "level": "warning"
     }
 }
