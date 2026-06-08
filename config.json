@@ -155,7 +155,7 @@
         "Barcode Generator": {
             "label": "Barcode Generator",
             "url": "https://prod.barcodes.robotics.amazon.dev/?fcmenu-sensitive=eyJraWQiOiIxIiwiYWxnIjoiUlMyNTYifQ.eyIxMSI6IjE1LjE1OC4yMTQuMTAzIiwiMTIiOmZhbHNlLCIxMyI6ZmFsc2UsIjE0IjoiaHR0cHM6Ly9tZW51Lm5hLmFmdC5hbWF6b25vcGVyYXRpb25zLmFwcCIsIjE1IjoiIiwiMTYiOm51bGwsIjE3IjoiRkNfTUVOVV9FWFRFUk5BTCIsIjEiOiIyMDIyNzMyOTgiLCIyIjoiZ2JyeWFuam8iLCIzIjoibWlkd2F5IiwiNCI6IkdFRzEiLCI1IjoiMzIwIiwiNiI6bnVsbCwiNyI6ImVuX1VTIiwiOCI6bnVsbCwiOSI6bnVsbCwiZGVlcENoZWNrVGltZXN0YW1wIjoiMTc3ODAxNDQ3NTAzMSIsIjEwIjpudWxsLCJpc3MiOiJtZW51Lm5hLmFmdC5hbWF6b25vcGVyYXRpb25zLmFwcCIsImV4cCI6MTc3ODA1MDQ3OH0.CjAQCnkhb5U1OmEgStawAvtV05NYmnAGBg3gKcdL3TSSd9ipT5U1IY4JCM53yAS1r_uvlcVUDkxSCUAHBGHFQr-2b_krwDSYLUXwEYf-suZF4o1Hte5Wghp41fHLGouDqljnYhV2GXEeH3ujurZSMzq_WWZQ7NzfwevxyNnwacfGWLl7hmyPNiPcgfkQMkloZLs3DSKsp0IxV1E0dSiV5n9s_o3oavWikuxy4v0VB6HbIMyGFMhh4LcXMLyDwNwxwsq3XZ5_2aQ7EpYjHSOHwRr-fEzcp9okI5_5cZeOA_8qk87A2Ho3HcnMgWPAZB9LX03ElQ8tNS-14j8biJcHiw&text=94404-TRANSFER#code128",
-            "description": ""
+            "description": "Generate barcodes for hand scanners"
         }
     },
     "documents": {
