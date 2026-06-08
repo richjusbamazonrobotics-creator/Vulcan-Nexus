@@ -356,6 +356,48 @@
             "bg_dark": "#0d1117",
             "bg_sidebar": "#161b22",
             "bg_card": "#1c2128"
+        },
+        "Tokyo Night": {
+            "accent": "#f7768e",
+            "accent_dim": "#bb4d5a",
+            "bg_dark": "#1a1b26",
+            "bg_sidebar": "#16161e",
+            "bg_card": "#24283b"
+        },
+        "Dracula": {
+            "accent": "#bd93f9",
+            "accent_dim": "#7c5cbf",
+            "bg_dark": "#282a36",
+            "bg_sidebar": "#21222c",
+            "bg_card": "#343746"
+        },
+        "Nord": {
+            "accent": "#88c0d0",
+            "accent_dim": "#5e81ac",
+            "bg_dark": "#2e3440",
+            "bg_sidebar": "#272c36",
+            "bg_card": "#3b4252"
+        },
+        "Monokai": {
+            "accent": "#e6db74",
+            "accent_dim": "#a69400",
+            "bg_dark": "#272822",
+            "bg_sidebar": "#1e1f1c",
+            "bg_card": "#3e3d32"
+        },
+        "Catppuccin": {
+            "accent": "#cba6f7",
+            "accent_dim": "#8a5cf5",
+            "bg_dark": "#1e1e2e",
+            "bg_sidebar": "#181825",
+            "bg_card": "#313244"
+        },
+        "Solarized Dark": {
+            "accent": "#2aa198",
+            "accent_dim": "#1a6b64",
+            "bg_dark": "#002b36",
+            "bg_sidebar": "#00212b",
+            "bg_card": "#073642"
         }
     },
     "passdown": [
@@ -366,6 +408,10 @@
         }
     ],
     "active_users": {
-        "richjusb": "2026-06-08T15:09:29.424667"
+        "richjusb": "2026-06-08T16:16:14.962390"
+    },
+    "announcement": {
+        "message": "This is a test!",
+        "level": "info"
     }
 }
