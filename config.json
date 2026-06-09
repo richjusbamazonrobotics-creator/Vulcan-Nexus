@@ -85,14 +85,13 @@
     "users": {
         "richjusb": {
             "display_name": "Justin Richards",
-            "role": "owner",
+            "role": "fe",
             "shift": "bhd"
         },
         "jjpjohns": {
             "display_name": "Jackson Johnson Barreto",
             "role": "fe",
-            "shift": "fhn",
-            "access": "elevated"
+            "shift": "fhn"
         },
         "danedell": {
             "display_name": "Dane DellaPenta",
@@ -385,7 +384,7 @@
     },
     "passdown": [],
     "active_users": {
-        "richjusb": "2026-06-09T01:36:24.880343"
+        "richjusb": "2026-06-09T01:37:17.108558"
     },
     "announcement": {
         "message": "Thank you for trying out my application, I hope you enjoy it!",
