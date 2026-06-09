@@ -400,13 +400,7 @@
             "bg_card": "#141414"
         }
     },
-    "passdown": [
-        {
-            "author": "Justin Richards",
-            "message": "4446 LNR Crashed - DO NOT OPERATE",
-            "timestamp": "2026-06-07T19:16:50.253171"
-        }
-    ],
+    "passdown": [],
     "active_users": {
         "richjusb": "2026-06-08T17:28:08.669465"
     },
