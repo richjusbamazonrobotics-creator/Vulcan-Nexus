@@ -44,11 +44,8 @@ Alphabetical list of all team members with their role, access level, shift, and 
 ### Settings
 Accessible via the **⚙ gear icon** next to your name in the bottom-left corner. Lets you customize your theme, quick links, and Full Stack items.
 
-### Admin Panel *(Elevated and Expert access only)*
-Manage bookmarks, documents, SOPs, applications, scripts, and users (name, title, shift). Changes are pushed to the cloud and take effect for all users on their next launch.
-
-### Owner Panel *(Expert access only)*
-Edit your profile, post team-wide announcements, manage access levels from the Team Roster, and control cloud sync.
+### Admin Settings *(Elevated, Expert, and Master access only)*
+A single settings panel with sections gated by access level. Elevated users can manage team members (name, title, shift). Expert users can also manage bookmarks, documents, SOPs, applications, scripts, and post announcements or passdown notes. Master has full access to everything including profile editing and cloud sync controls. All changes push to the cloud and take effect for all users on their next launch.
 
 ---
 
@@ -56,11 +53,12 @@ Edit your profile, post team-wide announcements, manage access levels from the T
 
 Access levels are separate from job titles. Your role reflects your actual position — your access level determines what you can manage.
 
-- **Expert** — App Owner only. Full access to everything including the Owner Panel.
-- **Elevated** — Grants access to the Admin Panel to manage users, links, documents, and content.
+- **Master** — App Owner only. Hardcoded and fully protected. Full access to everything.
+- **Expert** — Grantable by Master. Access to Admin Settings: content management, user management, passdown, and announcements. Can grant access up to Elevated.
+- **Elevated** — Grantable by Master or Expert. Access to Admin Settings: user management (name, title, shift) only. Cannot change access levels.
 - **Standard** — Default for all users. Page access is defined by your role.
 
-Page visibility varies by role and is managed by the App Owner. The Admin Panel is always visible to Elevated and Expert users regardless of role. The Owner Panel is visible to the App Owner only.
+Page visibility varies by role. Admin Settings is visible to Elevated, Expert, and Master users. Access levels are managed by Master and Expert users from the Admin Settings panel.
 
 ---
 
