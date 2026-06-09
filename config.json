@@ -85,7 +85,7 @@
     "users": {
         "richjusb": {
             "display_name": "Justin Richards",
-            "role": "fe",
+            "role": "owner",
             "shift": "bhd"
         },
         "jjpjohns": {
@@ -311,13 +311,6 @@
         "max_quick_links": 6
     },
     "themes": {
-        "Vulcan Blue": {
-            "accent": "#ff9900",
-            "accent_dim": "#b36b00",
-            "bg_dark": "#0a0e1a",
-            "bg_sidebar": "#0f1525",
-            "bg_card": "#161d30"
-        },
         "Nexus Green": {
             "accent": "#00cc66",
             "accent_dim": "#238636",
@@ -391,7 +384,7 @@
     },
     "passdown": [],
     "active_users": {
-        "richjusb": "2026-06-09T01:48:01.092969"
+        "richjusb": "2026-06-09T01:50:09.553457"
     },
     "announcement": {
         "message": "Thank you for trying out my application, I hope you enjoy it!",
