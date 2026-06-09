@@ -91,7 +91,8 @@
         "jjpjohns": {
             "display_name": "Jackson Johnson Barreto",
             "role": "fe",
-            "shift": "fhn"
+            "shift": "fhn",
+            "access": "elevated"
         },
         "danedell": {
             "display_name": "Dane DellaPenta",
