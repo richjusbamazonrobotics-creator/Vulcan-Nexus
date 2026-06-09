@@ -11,7 +11,7 @@
 3. Double-click `Vulcan Nexus.exe` to launch
 4. The app will automatically detect your Windows login and assign your role
 
-> If you see limited access or missing pages, contact your admin to have your alias added to the roster.
+> If you see limited access or missing pages, contact Justin (@richjusb) to have your alias added to the roster.
 
 ---
 
@@ -39,30 +39,43 @@ Automation utilities including the Workshell SSH tunnel environment.
 Links to Amazon Learn, Global Robotics University, and all standard operating procedures for GEG1.
 
 ### Team Roster
-Alphabetical list of all team members with their role, shift, and active status. Online users are shown first.
+Alphabetical list of all team members with their role, access level, shift, and active status. Online users are shown first.
 
 ### Settings
 Accessible via the **⚙ gear icon** next to your name in the bottom-left corner. Lets you customize your theme, quick links, and Full Stack items.
 
-### Admin Panel *(Admin and Owner only)*
-Manage all bookmarks, documents, SOPs, users, and role permissions. Changes are pushed to the cloud and take effect for all users on their next launch.
+### Admin Panel *(Elevated and Expert access only)*
+Manage all bookmarks, documents, SOPs, users, and access levels. Changes are pushed to the cloud and take effect for all users on their next launch.
 
-### Owner Panel *(Owner only)*
-Post team-wide announcements, manage the role permission matrix, and control cloud sync.
+### Owner Panel *(Expert access only)*
+Edit your profile, post team-wide announcements, manage the role permission matrix, and control cloud sync.
 
 ---
 
-## Role Access
+## Access Levels
 
-| Role | Home | Apps | Kinesis | Docs | Links | Training | Scripts | Roster | Settings | Admin | Owner Panel |
-|------|:----:|:----:|:-------:|:----:|:-----:|:--------:|:-------:|:------:|:--------:|:-----:|:-----------:|
-| Owner | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Administrator | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — |
+Access levels are separate from job titles. Your role (e.g. Tech Lead, Field Engineer) reflects your actual position. Your access level determines what you can manage.
+
+| Access Level | Description |
+|---|---|
+| **Expert** | App Owner only. Full access to everything including Owner Panel. |
+| **Elevated** | Grants access to the Admin Panel — manage users, links, documents, and content. |
+| **Standard** | Default for all users. Access is defined by role permissions. |
+
+## Role Page Access
+
+Page visibility is configured per role in the Owner Panel and can be adjusted at any time.
+
+| Role | Home | Apps | Kinesis | Docs | Links | Training | Scripts | Roster | Settings | Admin¹ | Owner Panel² |
+|------|:----:|:----:|:-------:|:----:|:-----:|:--------:|:-------:|:------:|:--------:|:------:|:------------:|
 | Tech Lead | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Operations Lead | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Field Engineer | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | — |
 | Vulcan Floor Monitor | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — | — |
 | Inductor | ✓ | ✓ | — | ✓ | ✓ | ✓ | — | — | ✓ | — | — |
+
+¹ Admin Panel is always visible to Elevated and Expert access users, regardless of role.  
+² Owner Panel is always visible to the Expert (App Owner) only.
 
 ---
 
@@ -80,7 +93,7 @@ Post team-wide announcements, manage the role permission matrix, and control clo
 Make sure you extracted the zip before running. Do not run the `.exe` directly from inside the zip file.
 
 **Wrong permissions or missing from roster**
-Contact your admin (@richjusb) to have your Windows alias and role added.
+Contact Justin (@richjusb) to have your Windows alias, role, and access level added.
 
 **Links not opening**
 Make sure Chrome is installed at the default path and your VPN is connected for internal Amazon links.
