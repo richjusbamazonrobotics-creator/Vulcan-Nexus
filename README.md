@@ -45,37 +45,22 @@ Alphabetical list of all team members with their role, access level, shift, and 
 Accessible via the **⚙ gear icon** next to your name in the bottom-left corner. Lets you customize your theme, quick links, and Full Stack items.
 
 ### Admin Panel *(Elevated and Expert access only)*
-Manage all bookmarks, documents, SOPs, users, and access levels. Changes are pushed to the cloud and take effect for all users on their next launch.
+Manage bookmarks, documents, SOPs, applications, scripts, and users (name, title, shift). Changes are pushed to the cloud and take effect for all users on their next launch.
 
 ### Owner Panel *(Expert access only)*
-Edit your profile, post team-wide announcements, manage the role permission matrix, and control cloud sync.
+Edit your profile, post team-wide announcements, manage access levels from the Team Roster, and control cloud sync.
 
 ---
 
 ## Access Levels
 
-Access levels are separate from job titles. Your role (e.g. Tech Lead, Field Engineer) reflects your actual position. Your access level determines what you can manage.
+Access levels are separate from job titles. Your role reflects your actual position — your access level determines what you can manage.
 
-| Access Level | Description |
-|---|---|
-| **Expert** | App Owner only. Full access to everything including Owner Panel. |
-| **Elevated** | Grants access to the Admin Panel — manage users, links, documents, and content. |
-| **Standard** | Default for all users. Access is defined by role permissions. |
+- **Expert** — App Owner only. Full access to everything including the Owner Panel.
+- **Elevated** — Grants access to the Admin Panel to manage users, links, documents, and content.
+- **Standard** — Default for all users. Page access is defined by your role.
 
-## Role Page Access
-
-Page visibility is configured per role in the Owner Panel and can be adjusted at any time.
-
-| Role | Home | Apps | Kinesis | Docs | Links | Training | Scripts | Roster | Settings | Admin¹ | Owner Panel² |
-|------|:----:|:----:|:-------:|:----:|:-----:|:--------:|:-------:|:------:|:--------:|:------:|:------------:|
-| Tech Lead | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
-| Operations Lead | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
-| Field Engineer | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | — |
-| Vulcan Floor Monitor | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — | — |
-| Inductor | ✓ | ✓ | — | ✓ | ✓ | ✓ | — | — | ✓ | — | — |
-
-¹ Admin Panel is always visible to Elevated and Expert access users, regardless of role.  
-² Owner Panel is always visible to the Expert (App Owner) only.
+Page visibility varies by role and is managed by the App Owner. The Admin Panel is always visible to Elevated and Expert users regardless of role. The Owner Panel is visible to the App Owner only.
 
 ---
 
