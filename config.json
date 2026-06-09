@@ -85,7 +85,7 @@
     "users": {
         "richjusb": {
             "display_name": "Justin Richards",
-            "role": "owner",
+            "role": "fe",
             "shift": "bhd"
         },
         "jjpjohns": {
@@ -384,7 +384,7 @@
     },
     "passdown": [],
     "active_users": {
-        "richjusb": "2026-06-09T01:35:51.458794"
+        "richjusb": "2026-06-09T01:36:17.110207"
     },
     "announcement": {
         "message": "Thank you for trying out my application, I hope you enjoy it!",
