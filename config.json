@@ -1,5 +1,5 @@
 {
-    "version": "3.8.0",
+    "version": "3.9.0",
     "default_role": "vfm",
     "roles": {
         "owner": {
@@ -14,7 +14,7 @@
                 "scripts",
                 "roster",
                 "settings",
-                "admin"
+                "admin_settings"
             ]
         },
         "tech_lead": {
@@ -85,7 +85,7 @@
     "users": {
         "richjusb": {
             "display_name": "Justin Richards",
-            "role": "owner",
+            "role": "fe",
             "shift": "bhd"
         },
         "jjpjohns": {
@@ -384,7 +384,7 @@
     },
     "passdown": [],
     "active_users": {
-        "richjusb": "2026-06-09T01:24:33.744697"
+        "richjusb": "2026-06-08T23:36:23.855764"
     },
     "announcement": {
         "message": "Thank you for trying out my application, I hope you enjoy it!",
