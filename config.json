@@ -1,24 +1,9 @@
 {
-    "version": "3.6.0",
+    "version": "3.7.0",
     "default_role": "vfm",
     "roles": {
         "owner": {
             "label": "Owner",
-            "pages": [
-                "home",
-                "apps",
-                "kinesis",
-                "docs",
-                "links",
-                "training",
-                "scripts",
-                "roster",
-                "settings",
-                "admin"
-            ]
-        },
-        "admin": {
-            "label": "Administrator",
             "pages": [
                 "home",
                 "apps",
@@ -100,7 +85,7 @@
     "users": {
         "richjusb": {
             "display_name": "Justin Richards",
-            "role": "owner",
+            "role": "fe",
             "shift": "bhd"
         },
         "jjpjohns": {
@@ -110,7 +95,8 @@
         },
         "danedell": {
             "display_name": "Dane DellaPenta",
-            "role": "admin",
+            "role": "tech_lead",
+            "access": "elevated",
             "shift": "bhd"
         }
     },
@@ -164,7 +150,6 @@
             "roles": [
                 "tech_lead",
                 "ole",
-                "admin",
                 "owner"
             ]
         },
@@ -176,7 +161,6 @@
                 "fe",
                 "tech_lead",
                 "ole",
-                "admin",
                 "owner"
             ]
         },
@@ -186,7 +170,6 @@
             "roles": [
                 "tech_lead",
                 "ole",
-                "admin",
                 "owner"
             ]
         },
@@ -198,7 +181,6 @@
                 "fe",
                 "tech_lead",
                 "ole",
-                "admin",
                 "owner"
             ]
         }
