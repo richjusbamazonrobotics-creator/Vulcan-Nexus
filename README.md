@@ -8,29 +8,29 @@ Vulcan Nexus is a Python-based GUI application that provides one-click access to
 
 ## Features
 
-- **Home Dashboard** — Two-column layout with shift passdown (left) and shift calendar (right), Full Stack launch, and quick links
+- **Home Dashboard** — Two-column layout with shift passdown (left) and shift calendar (right), team announcement banner, Full Stack launch, and quick links
 - **Applications** — Launch Cisco Secure Client VPN, Slack, Outlook, and Better MMA
 - **Bookmarks** — Team-wide web tools and dashboards
 - **Documents** — Monthly docs (Downtime Log, End of Day Report, Daily Sync) and role-gated reference documents
 - **Kinesis Streams** — Live video streams for all 6 GEG1 systems (18 cameras)
 - **Scripts** — Workshell and automation utilities
-- **Settings** — Customizable quick links, Full Stack items, and themes
-- **Team Roster** — Online-first alphabetical list with active status indicators
+- **Settings** — Customizable quick links, Full Stack items, and themes — accessed via the ⚙ gear icon in the sidebar footer
+- **Team Roster** — Online-first alphabetical list with active status indicators and full shift names
 - **Training & SOPs** — Amazon Learn, Global Robotics University, and standard operating procedures
 - **Admin Panel** — Manage all URLs, users, and role permissions (Admin and Owner only)
-- **Owner Panel** — Role permission matrix and cloud sync controls (Owner only)
+- **Owner Panel** — Announcement banner, role permission matrix, and cloud sync controls (Owner only)
 
 ## Role Hierarchy
 
-| Role | Home | Apps | Bookmarks | Docs | Kinesis | Scripts | Settings | Roster | Training | Admin | Owner |
-|------|:----:|:----:|:---------:|:----:|:-------:|:-------:|:--------:|:------:|:--------:|:-----:|:-----:|
+| Role | Home | Apps | Kinesis | Docs | Links | Training | Scripts | Roster | Settings | Admin | Owner Panel |
+|------|:----:|:----:|:-------:|:----:|:-----:|:--------:|:-------:|:------:|:--------:|:-----:|:-----------:|
 | Owner | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Admin | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — |
+| Administrator | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — |
 | Tech Lead | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Operations Lead | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — |
 | Field Engineer | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | — |
-| Vulcan Floor Monitor | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | ✓ | — | — |
-| Inductor | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — | ✓ | — | — |
+| Vulcan Floor Monitor | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | — | — |
+| Inductor | ✓ | ✓ | — | ✓ | ✓ | ✓ | — | — | ✓ | — | — |
 
 > **Note:** The Owner account (`richjusb`) is permanently protected in the application code.
 > It cannot be demoted, edited, or deleted through the GUI or by editing config.json.
