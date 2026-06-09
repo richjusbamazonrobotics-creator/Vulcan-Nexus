@@ -409,5 +409,9 @@
     ],
     "active_users": {
         "richjusb": "2026-06-08T17:16:20.823289"
+    },
+    "announcement": {
+        "message": "Test",
+        "level": "info"
     }
 }
