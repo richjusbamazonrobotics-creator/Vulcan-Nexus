@@ -389,13 +389,7 @@
             "bg_card": "#141414"
         }
     },
-    "passdown": [
-        {
-            "author": "Justin Richards",
-            "message": "Shit broke",
-            "timestamp": "2026-06-10T15:31:04.248997"
-        }
-    ],
+    "passdown": [],
     "active_users": {
         "richjusb": "2026-06-10T15:57:23.722475"
     },
