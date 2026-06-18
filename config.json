@@ -389,18 +389,7 @@
             "bg_card": "#141414"
         }
     },
-    "passdown": [
-        {
-            "author": "Justin Richards",
-            "message": "Hello",
-            "timestamp": "2026-06-18T11:38:53.987101"
-        },
-        {
-            "author": "Justin Richards",
-            "message": "Testing",
-            "timestamp": "2026-06-13T10:03:40.064391"
-        }
-    ],
+    "passdown": [],
     "active_users": {
         "richjusb": "2026-06-18T11:41:26.033765"
     },
