@@ -98,12 +98,6 @@
             "role": "tech_lead",
             "access": "expert",
             "shift": "bhd"
-        },
-        "@gbryanjo": {
-            "display_name": "Josh Bryan",
-            "role": "fe",
-            "access": "standard",
-            "shift": "fhd"
         }
     },
     "monthly_docs": {
