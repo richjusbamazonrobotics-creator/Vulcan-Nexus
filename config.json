@@ -395,6 +395,6 @@
     },
     "announcement": {
         "message": "Welcome to Alpha v3.9.0! Please leave comments either on Slack or in the Passdown Notes (for now), thank you.",
-        "level": "critical"
+        "level": "info"
     }
 }
