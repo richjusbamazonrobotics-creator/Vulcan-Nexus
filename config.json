@@ -104,12 +104,6 @@
             "role": "fe",
             "access": "standard",
             "shift": "fhd"
-        },
-        "llchandl": {
-            "display_name": "Chandler Little",
-            "role": "tech_lead",
-            "access": "standard",
-            "shift": "bhn"
         }
     },
     "monthly_docs": {
@@ -403,7 +397,7 @@
     },
     "passdown": [],
     "active_users": {
-        "richjusb": "2026-06-20T20:15:45.200520"
+        "richjusb": "2026-06-20T20:15:57.430333"
     },
     "announcement": {
         "message": "Welcome to Alpha v3.9.0! Please leave comments either on Slack or in the Passdown Notes (for now), thank you.",
