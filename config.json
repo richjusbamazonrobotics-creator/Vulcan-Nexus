@@ -104,6 +104,12 @@
             "role": "fe",
             "access": "standard",
             "shift": "fhd"
+        },
+        "llchandl": {
+            "display_name": "Chandler Little",
+            "role": "tech_lead",
+            "access": "standard",
+            "shift": "bhn"
         }
     },
     "monthly_docs": {
