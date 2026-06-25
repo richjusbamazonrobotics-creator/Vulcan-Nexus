@@ -122,7 +122,8 @@
         "daily_sync": {
             "label": "Daily Sync",
             "description": "Daily team sync folder for shift handoff notes",
-            "url": "https://amazon.sharepoint.com/sites/VulcanStow/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FVulcanStow%2FShared%20Documents%2FVulcan%20Stow%20Beta%20Sites%2FGEG1%2FDaily%20Sync"
+            "url": "https://amazon.sharepoint.com/:w:/r/sites/VulcanStow/_layouts/15/Doc.aspx?sourcedoc=%7BD523B588-FB67-4ECC-BDA1-1446EB5756A4%7D&file=June%202026%20GEG1%20Beta%20Daily%20Sync.docx&action=default&mobileredirect=true",
+            "roles": []
         },
         "dt_log": {
             "label": "Downtime Log",
