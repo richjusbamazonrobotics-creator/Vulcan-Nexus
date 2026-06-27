@@ -116,6 +116,12 @@
             "role": "tech_lead",
             "access": "standard",
             "shift": "fhd"
+        },
+        "huswarrh": {
+            "display_name": "Huston Warrick",
+            "role": "fe",
+            "access": "standard",
+            "shift": "fhd"
         }
     },
     "monthly_docs": {
