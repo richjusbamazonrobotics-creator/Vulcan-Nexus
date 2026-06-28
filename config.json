@@ -120,7 +120,7 @@
         "huswarrh": {
             "display_name": "Huston Warrick",
             "role": "fe",
-            "access": "standard",
+            "access": "expert",
             "shift": "fhd"
         }
     },
